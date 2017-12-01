@@ -5,14 +5,16 @@ import android.util.Log;
 /**
  * Created by d_yamamoto on 2017/12/01.
  */
-class HUMAN extends Animal {
+class HUMAN extends Animal implements Thinkable{
+
     // クラス変数
     static String to_jp = "私";
 
     // コンストラクタ
-    public HUMAN(String name, int age) {
+    public HUMAN(String name, int age, String hobby) {
         this.name = name;
         this.age = age;
+        this.hobby = hobby;
     }
     // クラス関数
     public static void introduce() {
@@ -23,15 +25,11 @@ class HUMAN extends Animal {
     public void say() {
         Log.d("javatest", this.name + "(" + this.age + "歳)" );
 
+    }
 
-        // クラス変数
-        String to_jp = "私";
-
-        }
-        // メンバ関数
-    public void think() {
-        (Log.d("javatest", this.hobby) {
-        }
+    @Override
+    public void think(){
 
     }
 }
+
