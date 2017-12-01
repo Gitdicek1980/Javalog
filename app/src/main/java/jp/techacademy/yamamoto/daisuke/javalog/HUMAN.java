@@ -5,7 +5,7 @@ import android.util.Log;
 /**
  * Created by d_yamamoto on 2017/12/01.
  */
-abstract class HUMAN extends Animal {
+class HUMAN extends Animal {
     // クラス変数
     static String to_jp = "私";
 
