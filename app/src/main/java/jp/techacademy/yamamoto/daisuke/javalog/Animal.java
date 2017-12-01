@@ -6,6 +6,4 @@ abstract class Animal {
     int age;    // 年齢
 
     abstract public void say();
-
-    public abstract void move();
 }

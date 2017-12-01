@@ -14,7 +14,6 @@ class HUMAN extends Animal {
         this.name = name;
         this.age = age;
     }
-
     // クラス関数
     public static void introduce() {
         Log.d("javatest", "これはクラスです。");
@@ -23,5 +22,16 @@ class HUMAN extends Animal {
     // メンバ関数
     public void say() {
         Log.d("javatest", this.name + "(" + this.age + "歳)" );
+
+
+        // クラス変数
+        String to_jp = "私";
+
+        }
+        // メンバ関数
+    public void think() {
+        (Log.d("javatest", this.hobby) {
+        }
+
     }
 }
