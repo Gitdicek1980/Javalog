@@ -9,6 +9,7 @@ class HUMAN extends Animal implements Thinkable{
 
     // クラス変数
     static String to_jp = "私";
+    String hobby; // 趣味
 
     // コンストラクタ
     public HUMAN(String name, int age, String hobby) {
